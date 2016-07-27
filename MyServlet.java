@@ -36,7 +36,7 @@ public class MyServlet extends HttpServlet {
 		out.print("<h3>Hello Servlet<h3>");
 		out.print("</body></html>");
 		
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		
 	}
 
 	/**
